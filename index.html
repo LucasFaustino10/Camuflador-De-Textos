@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/	css2?family=Bebas+Neue&family=Inter&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">	
+		<link rel="stylesheet" type="text/css" href="css/reset.css">	
+		<title>Camuflador de Texto</title>
+	</head>
+	<body>
+		<div class="body">
+			<header>
+				<section class="caixa">
+					<h1><img id="img-header" alt="titulo-camuflador" src="imagens/header.png"></h1>
+				</section>	
+			</header>
+			<main>
+				<section class="box">
+					<div class="entrada">
+						<textarea class="entrada-texto" placeholder="Digite dua mensagem, sem acento." cols="30" rows="7"></textarea>
+						<button class="btn" onclick= "exibeMensagem()">Camuflar</button>
+						<button class="btn" onclick= "exibeDesencriptado()">Descamuflar</button>
+					</div>
+				</section>
+	
+				<section class="box">
+					<textarea class="saida-texto" id="texto" cols="30" rows="7"></textarea>
+					<button class = "btn" onclick="copiarTexto()">Copiar</button>
+					<button class = "btn" onclick="limparTexto()">Limpar</button>
+				</section>
+			</main>
+			<footer class="rodape">
+				<p class="copyright">&copy;By Lucas Faustino - 2022</p>
+			</footer>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>

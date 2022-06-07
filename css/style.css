@@ -1,0 +1,77 @@
+*{
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 48px;
+}
+header{
+	background: black;
+	padding: 2.7vh 0;
+}
+.caixa{
+	width: 80vw;
+	text-align: center;
+	margin: auto;
+}
+body{
+	background-color: #E5E5E5;
+}
+.body{
+	display: table;
+	width: 100%;
+	height: 100vh;
+}
+main{
+	display: flex;
+	width: 75vw;
+	margin: auto;
+	padding: 7vh;
+}
+.btn{
+	padding: 5px 20px;
+	color: black;
+	font-weight: bolder;
+	font-size: 25px;
+	border-radius: 0.5em;
+	margin: auto;
+}
+.btn:hover{
+	transform: scale(1.1);
+	background: rgb(246, 234, 234);
+	cursor: pointer;
+}
+.entrada-texto, .saida-texto{
+	border-radius: 0.5em;
+	border: 2px solid black;
+}
+.entrada-texto{
+	background-color: white;
+}
+.saida-texto{
+	background-repeat: no-repeat;
+}
+.semImagem {
+	background-image: none;
+}
+footer{
+	background: black;
+	text-align: center;	
+}
+.copyright{
+	color: white;
+	font-size: 20px;
+	margin: 20px 0 0;
+	padding: 35px 0;
+}
+@media screen and (max-width: 480px){
+	.caixa, .box{
+		width: 100%;
+	}
+	h1{
+		text-align: center;
+	}
+	nav{
+		position: static;
+	}
+}
+
